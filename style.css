@@ -157,4 +157,43 @@ form button:hover{
 
 form button:hover {
     background-color: #2980b9;
+
+}
+
+form {
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
 }
